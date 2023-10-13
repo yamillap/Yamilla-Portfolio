@@ -184,8 +184,8 @@ header{
     left: 2%;
     display:flex;
     transition: all .50s ease;
-    padding-left: 780px;
-    padding-top: 450px;
+    padding-left: 560px;
+    padding-top: 350px;
     width: 270px;
     height: 100vh;
     background-color:#130a34;
@@ -203,14 +203,6 @@ header{
 }
 
 
-
-.sections{
-    color: whitesmoke;
-    text-align: center;
-    font-size: 35px;
-    margin-top: 200px;
-}
-
 .about{
     padding-top: 20px;
     padding-left: 15px;
@@ -218,34 +210,61 @@ header{
     margin-bottom: 130px;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: #9681b0;
+    background-color: #130a34;
     border-radius: 15px;
-    height: 55vh;
+    height: 60vh;
 
     
 }
 
 .about-cont{
-    font-size: 25px;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+
+.about-cont-li{
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+.skills{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 230px;
+    margin-bottom: 95px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #130a34;
+    border-radius: 15px;
+    height: 55vh;
+    color: whitesmoke;
+
+} 
+
+.skills-cont{
+    font-size: 21px;
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 25px;
+    color: whitesmoke;
 }
 
-/* .skills{
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 25%;
-    background-color: #9681b0;
-    border-radius: 15px;
-    height: 60vh;
+.skills-cont-li{
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 10px;
+}
 
-} */
-
-/* .skills-cont{
-    font-size: 25px;
-} */
+    
