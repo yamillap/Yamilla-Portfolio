@@ -15,7 +15,7 @@ html{
 
 
 body{
-    background: linear-gradient(to right, #20052c, #400f71, #885ac4);
+    background: linear-gradient(to right, #120836, #400f71, #885ac4);
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
 }
@@ -32,7 +32,7 @@ header{
     background: transparent;
     padding: 30px 5%;
     transition: all .30s ease;
-    background-color: #241539;
+    background-color: #130a34;
 
 }
 
@@ -188,7 +188,7 @@ header{
     padding-top: 450px;
     width: 270px;
     height: 100vh;
-    background-color:#20052c;
+    background-color:#130a34;
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
@@ -198,8 +198,7 @@ header{
 .hello{
     white-space: nowrap;
     overflow: hidden;
-    opacity: 0.7;
-    color: #9681b0;
+    color: #ffffff;
 
 }
 
@@ -209,24 +208,32 @@ header{
     color: whitesmoke;
     text-align: center;
     font-size: 35px;
+    margin-top: 200px;
 }
 
 .about{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-bottom: 130px;
     margin-left: 25%;
     margin-right: 25%;
     background-color: #9681b0;
     border-radius: 15px;
-    height: 60vh;
+    height: 55vh;
+
+    
 }
 
 .about-cont{
     font-size: 25px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
 }
 
-.skills{
+/* .skills{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -237,11 +244,8 @@ header{
     border-radius: 15px;
     height: 60vh;
 
-}
+} */
 
-.skills-cont{
+/* .skills-cont{
     font-size: 25px;
-}
-
-
-    
+} */
