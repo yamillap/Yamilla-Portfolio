@@ -32,7 +32,7 @@ header{
     background: transparent;
     padding: 30px 5%;
     transition: all .30s ease;
-    background-color: #130a34;
+    background-color: #0f082a;
 
 }
 
@@ -188,7 +188,7 @@ header{
     padding-top: 350px;
     width: 270px;
     height: 100vh;
-    background-color:#130a34;
+    background-color:#0f082a;
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
@@ -201,6 +201,30 @@ header{
     color: #ffffff;
 
 }
+
+.welcome {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-left: 750px;
+    font-family:'Courier New';
+    color: #8fe5bd;
+    top: auto;
+    border: 2px solid;
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 
 .about{
@@ -309,6 +333,18 @@ header{
     padding-top: 20px;
     padding-right: 31px;
     padding-left: 20px;
+}
+
+
+.copyright{
+    position: relative;
+	width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    bottom: 0;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+	
 }
     
 
