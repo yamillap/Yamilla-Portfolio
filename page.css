@@ -239,7 +239,7 @@ header{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 230px;
+    margin-top: 35px; 
     margin-bottom: 95px;
     margin-left: 25%;
     margin-right: 25%;
@@ -262,9 +262,54 @@ header{
 .skills-cont-li{
     display: inline;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content:space-evenly;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+    
 }
 
+.skills-cont-li :hover{
+    color: #885ac4;
+    transition: all .30s ease;
+}    
+
+.git{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-top: 130px;
+    margin-bottom: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #130a34;
+    border-radius: 15px;
+    height: 70vh;
+    color: whitesmoke;
+
+} 
+
+.git-cont{
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: whitesmoke;
+    background-color: #8279a3;
+    border-radius: 15px;
+    height: 30vh;
+    width: 45vh;
+}
+
+.git-para{
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 31px;
+    padding-left: 20px;
+}
     
+
+
