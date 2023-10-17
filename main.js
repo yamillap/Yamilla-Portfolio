@@ -1,47 +1,41 @@
-import './page.css'
+import './contact.html'
 
-// import * as THREE from 'three';
 
-// const scene = new THREE.Scene();
 
-// const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
-// const renderer = new THREE.WebGLRenderer({
-//     canvas: document.querySelector('#geo'),
-// });
+// let menu = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('.nav-links');
 
-// renderer.setPixelRatio(window.devicePixelRatio);
-// renderer.setSize( window.innerWidth, window.innerHeight);
-// camera.position.setZ(30);
+// menu.onclick = () => {
+//     // menu.classList.toggle('menu-icon');
+//     // navbar.classList.toggle('open');
 
-// renderer.render(scene, camera);
-
-// const geometry = new THREE.TorusGeometry(10, 3, 16, 100)
-// const material = new THREE.MeshBasicMaterial({color: 0x9681b0, wireframe: true });
-// const torus = new THREE.Mesh(geometry, material);
-
-// scene.add(torus)
-
-// function animate(){
-//     requestAnimationFrame(animate);
-
-//     torus.rotation.x += 0.01;
-//     torus.rotation.y += 0.005;
-//     torus.rotation.z += 0.01;
-    
-//     renderer.render(scene, camera);
 // }
 
-// animate();
+function isValid() {
+    
+    const name = document.getElementById('name');
+    const add = document.getElementById('address');
+    const tel = document.getElementById('tel');
 
+    let nameFlag = false;
+    let telFlag = false;
 
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.nav-links');
+    if (name.value.match(/^[a-zA-Z]+$/)) nameFlag = true; 
+    if (tel.value.match(/^[1-9]\d{2}-\d{3}-\d{4}/)) telFlag = true;
+    
 
-menu.onclick = () => {
-    // menu.classList.toggle('menu-icon');
-    // navbar.classList.toggle('open');
+    if (!nameFlag) alert("Name cannot contain numbers");
+    if (!telFlag) alert("Incorrect format, must be xxx-xxx-xxxx");
 
+    if (nameFlag && telFlag) {
+        document.getElementById('nameUser').innerHTML = name.value;
+        document.getElementById('addUser').innerHTML = add.value;
+        document.getElementById('telUser').innerHTML = tel.value;
+    }
+    
 }
+
+
 
 
