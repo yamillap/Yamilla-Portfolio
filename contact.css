@@ -17,7 +17,7 @@ html{
 body{
     background: linear-gradient(to right, #120836, #400f71, #885ac4);
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 header{
@@ -73,9 +73,6 @@ header{
 
 }
 
-.nav-links a:hover{
-    color: #885ac4;
-}
 
 .contact{
     display: flex;
@@ -176,19 +173,21 @@ header{
 }
 
 .contact-box{
-    padding-top: 20px;
-    padding-right: 15px;
-    margin-top: 200px;
-    margin-left: 25%;
-    margin-right: 25%; 
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 250px;
+    margin-left: 30%;
+    margin-right: 25%;
     background-color: #130a34;
     border-radius: 15px;
-    height: 65vh;
+    height: 45vh;
+    width: 90vh;
     
 }
 
 .contact-cont{
-    font-size: 20px;
+    font-size: 30px;
     text-align: justify;
     padding-left: 25px;
     padding-right: 40px;
@@ -196,15 +195,15 @@ header{
     color: whitesmoke;
 }
 
-form{
-    max-width: 600px;
+.copyright{
+    position: relative;
+	width: 100%;
     text-align: center;
-    margin: 20px auto;
-
-   
- }
- 
-input{
-    border-radius: 8px;
-    height: 50px;
+    color: whitesmoke;
+    top: 100px;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+	
 }
+
+
