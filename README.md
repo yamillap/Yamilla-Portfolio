@@ -2,7 +2,7 @@
 I created a personal and responsive website that showcases my skills and projects!
 The website was built from:
 
-HTML
+<ul>HTML </ul>
 CSS
 JavaScript
 
