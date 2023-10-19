@@ -55,7 +55,7 @@ header{
 }
 
 .nav-logo span:hover{
-    color: #885ac4;
+    color: #cfb9ec;
 }
 
 
@@ -74,7 +74,7 @@ header{
 }
 
 .nav-links a:hover{
-    color: #885ac4;
+    color: #cfb9ec;
 }
 
 .contact{
@@ -92,7 +92,7 @@ header{
 }
 
 .contact a:hover{
-    color: #885ac4;
+    color: #cfb9ec;
 }
 
 #menu-icon{
@@ -103,13 +103,6 @@ header{
     display: none;
 }
 
-#close-icon{
-    font-size: 30px;
-    color: whitesmoke;
-    cursor: pointer;
-    z-index: 10001;
-    display: none;
-}
 
 @media (max-width: 1280px){
     header{
@@ -134,7 +127,7 @@ header{
     .nav-links{
         position: absolute;
         top: 100%;
-        right: -100%;
+        left: 80%;
         width: 270px;
         height: 41vh;
         background-color: #ac93cd;
@@ -144,6 +137,7 @@ header{
         border-radius: 10px;
         transition: all .50s ease;
         padding-left: 15px;
+        visibility: hidden;
         
     }
 
@@ -152,6 +146,7 @@ header{
         margin: 12px 0;
         padding: 0px 25px;
         transition: all .50s ease;
+        
         
     }
 
@@ -164,7 +159,14 @@ header{
         right: 2%;
     } 
     
+    
 }
+
+.open{
+    visibility:visible;
+    
+}
+
 
 .canvas{
     margin-top: 130px;
@@ -208,7 +210,7 @@ header{
     animation-fill-mode: forwards;
     margin-left: 750px;
     font-family:'Courier New';
-    color: #8fe5bd;
+    color: #d1bdec;
     top: auto;
     border: 2px solid;
     position: absolute;
@@ -226,40 +228,25 @@ header{
 }
 
 
-
-.about{
+.about-container{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
     margin-bottom: 130px;
     margin-left: 25%;
     margin-right: 25%;
     background-color: #130a34;
     border-radius: 15px;
     height: 60vh;
+    min-height: 500px;
+    min-width: 325px;
 
-    
 }
 
-.about-cont{
-    font-size: 16px;
-    text-align: justify;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    color: whitesmoke;
-}
-
-.about-cont-li{
-    font-size: 16px;
-    text-align: justify;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    color: whitesmoke;
-}
-
-.skills{
+.skills-container{
+    min-height: 400px;
+    min-width: 400px;
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -269,10 +256,65 @@ header{
     margin-right: 25%;
     background-color: #130a34;
     border-radius: 15px;
-    height: 55vh;
+    height: 50vh;
     color: whitesmoke;
 
-} 
+
+}
+
+.github-container{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 130px;
+    margin-bottom: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #130a34;
+    border-radius: 15px;
+    height: 70vh;
+    color: whitesmoke;
+    min-height: 600px;
+    min-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+
+
+}
+
+section{
+    min-width: 400px;
+    min-height: 400px;
+    overflow: hidden;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-cont{
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: whitesmoke;
+
+}
+
+.about-cont-li{
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    color: whitesmoke;
+    
+}
+
 
 .skills-cont{
     font-size: 21px;
@@ -298,32 +340,21 @@ header{
     color: #885ac4;
     transition: all .30s ease;
 }    
-
-.git{
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 15px;
-    margin-top: 130px;
-    margin-bottom: 35px;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #130a34;
-    border-radius: 15px;
-    height: 70vh;
-    color: whitesmoke;
-
-} 
+ 
 
 .git-cont{
     margin-top: 30px;
-    margin-left: 200px;
-    text-align: justify;
+    margin-left: 20px;
     padding-left: 40px;
     padding-right: 40px;
     color: whitesmoke;
     background-color: #8279a3;
     border-radius: 15px;
     height: 30vh;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
     width: 45vh;
 }
 
