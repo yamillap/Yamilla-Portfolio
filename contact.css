@@ -55,7 +55,7 @@ header{
 }
 
 .nav-logo span:hover{
-    color: #885ac4;
+    color: #cfb9ec;
 }
 
 
@@ -73,6 +73,9 @@ header{
 
 }
 
+.nav-links a:hover{
+    color: #cfb9ec;
+}
 
 .contact{
     display: flex;
@@ -89,7 +92,7 @@ header{
 }
 
 .contact a:hover{
-    color: #885ac4;
+    color: #cfb9ec;
 }
 
 #menu-icon{
@@ -100,13 +103,6 @@ header{
     display: none;
 }
 
-#close-icon{
-    font-size: 30px;
-    color: whitesmoke;
-    cursor: pointer;
-    z-index: 10001;
-    display: none;
-}
 
 @media (max-width: 1280px){
     header{
@@ -131,7 +127,7 @@ header{
     .nav-links{
         position: absolute;
         top: 100%;
-        right: -100%;
+        left: 80%;
         width: 270px;
         height: 41vh;
         background-color: #ac93cd;
@@ -141,6 +137,7 @@ header{
         border-radius: 10px;
         transition: all .50s ease;
         padding-left: 15px;
+        visibility: hidden;
         
     }
 
@@ -163,6 +160,11 @@ header{
     
 }
 
+.open{
+    visibility:visible;
+    
+}
+
 .canvas{
     margin-top: 130px;
     margin-bottom: 100px;
@@ -172,7 +174,7 @@ header{
     
 }
 
-.contact-box{
+.contact-container{
     padding-top: 25px;
     padding-right: 20px;
     padding-left: 10px;
@@ -183,11 +185,16 @@ header{
     border-radius: 15px;
     height: 45vh;
     width: 90vh;
+    min-height: 400px;
+    min-width: none;
     
+
+
 }
 
+
 .contact-cont{
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     padding-left: 25px;
     padding-right: 40px;
@@ -205,5 +212,4 @@ header{
     margin-bottom: 10px;
 	
 }
-
 
