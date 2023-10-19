@@ -3,7 +3,7 @@ I created a personal and responsive website that showcases my skills and project
 The website was built from:
 
 <ul>
-  <li>HTML</li>
+  <li><b>HTML</b></li>
 </ul>
 <ul>
   <li>CSS</li>
