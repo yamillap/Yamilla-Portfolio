@@ -1,18 +1,13 @@
-import './contact.html'
 
+window.onscroll = function() {nav_menu()};
+function nav_menu(){
+    const menu = document.getElementById("menu-icon");
+    const navbar = document.getElementsByClassName('nav-links')[0];
 
+    menu.classList.toggle('.menu-icon');
+    navbar.classList.toggle('open');
 
-
-// let menu = document.querySelector('#menu-icon');
-// let navbar = document.querySelector('.nav-links');
-
-// menu.onclick = () => {
-//     // menu.classList.toggle('menu-icon');
-//     // navbar.classList.toggle('open');
-
-// }
-
-
+}
 
 
 
