@@ -6,10 +6,10 @@ The website was built from:
   <li><b>HTML</b></li>
 </ul>
 <ul>
-  <li>CSS</li>
+  <li><b>CSS</b></li>
 </ul>
 <ul>
-  <li>JavaScript</li>
+  <li><b>JavaScript</b></li>
 </ul>
 
 Check it out here! https://yamillaprodhan.netlify.app/
