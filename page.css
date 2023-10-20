@@ -129,7 +129,7 @@ header{
         top: 100%;
         left: 80%;
         width: 270px;
-        height: 41vh;
+        height: 30vh;
         background-color: #ac93cd;
         display: flex;
         flex-direction: column;
@@ -150,7 +150,7 @@ header{
         
     }
 
-    .nav-links:hover{
+    .nav-links a:hover{
         color: #241539;
         transform: translateX(5px);
     }
@@ -232,33 +232,32 @@ header{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 130px;
+    padding-bottom: 35px;
     margin-left: 25%;
     margin-right: 25%;
     background-color: #130a34;
     border-radius: 15px;
-    height: 60vh;
-    min-height: 500px;
+    min-height: 50vh;
+    max-height: 500px;
     min-width: 325px;
 
 }
 
 .skills-container{
-    min-height: 400px;
+    max-height: 400px;
     min-width: 400px;
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 35px; 
+    margin-top: 35px;
     margin-bottom: 95px;
     margin-left: 25%;
     margin-right: 25%;
     background-color: #130a34;
     border-radius: 15px;
-    height: 50vh;
+    min-height: 50vh;
+    width: 70vh;
     color: whitesmoke;
-
 
 }
 
@@ -272,15 +271,14 @@ header{
     margin-right: 25%;
     background-color: #130a34;
     border-radius: 15px;
-    height: 70vh;
+    max-height: 60vh;
     color: whitesmoke;
-    min-height: 600px;
-    min-width: 420px;
+    min-height: 500px;
+    min-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-
 
 }
 
@@ -321,7 +319,6 @@ section{
     text-align: justify;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 25px;
     color: whitesmoke;
 }
 
@@ -331,7 +328,6 @@ section{
     align-items: flex-end;
     justify-content:space-evenly;
     padding-top: 5px;
-    padding-bottom: 10px;
     flex-wrap: nowrap;
     
 }
@@ -362,7 +358,7 @@ section{
     font-size: 15px;
     text-align: justify;
     padding-top: 20px;
-    padding-right: 31px;
+    padding-right: 20px;
     padding-left: 20px;
 }
 
@@ -378,5 +374,4 @@ section{
 	
 }
     
-
 
