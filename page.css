@@ -213,7 +213,7 @@ header{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     margin-left: 780px;
-    font-family:'Courier New';
+    font-family: monospace;
     color: #d1bdec;
     top: auto;
     border: 2px solid;
