@@ -212,6 +212,7 @@ header{
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    font-size: 15px;
     margin-left: 780px;
     font-family: monospace;
     color: #d1bdec;
