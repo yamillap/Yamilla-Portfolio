@@ -218,7 +218,7 @@ header{
     top: auto;
     border: 2px solid;
     position: absolute;
-    top: 70%;
+    top: 65%;
     transform: translate(-50%, -50%);
     padding: 10px;
 }
