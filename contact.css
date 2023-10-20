@@ -129,7 +129,7 @@ header{
         top: 100%;
         left: 80%;
         width: 270px;
-        height: 41vh;
+        height: 30vh;
         background-color: #ac93cd;
         display: flex;
         flex-direction: column;
@@ -149,7 +149,7 @@ header{
         
     }
 
-    .nav-links:hover{
+    .nav-links a:hover{
         color: #241539;
         transform: translateX(5px);
     }
@@ -212,4 +212,3 @@ header{
     margin-bottom: 10px;
 	
 }
-
