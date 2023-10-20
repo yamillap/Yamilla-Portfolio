@@ -70,6 +70,7 @@ header{
     padding: 5px 0;
     margin: 0px 95px;
     transition: all .30s ease;
+    font-family: monospace;
 
 }
 
@@ -88,6 +89,7 @@ header{
     margin-left: 10px;
     font-size: 1rem;
     transition: all .30s ease;
+    font-family: monospace;
 
 }
 
@@ -146,6 +148,7 @@ header{
         margin: 12px 0;
         padding: 0px 25px;
         transition: all .50s ease;
+	font-family: monospace;
         
         
     }
@@ -194,6 +197,7 @@ header{
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
+    font-family: monospace;
 
 }
 
