@@ -61,7 +61,7 @@ header{
 
 .nav-links{
     display: flex;
-    visibility: hidden;
+    
 }
 
 .nav-links a {
